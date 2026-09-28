@@ -1,0 +1,33 @@
+# Datasets: large, third-party licensed, and regenerable via scripts/make_dataset.py
+data/
+
+# Huge generated evaluation dumps (results/*.json, *.log, plots, etc. ARE tracked - only the raw enhanced audio is not)
+results/enhanced/
+
+# External reference implementation (MIT, Rong et al.) - linked in README instead of vendored,
+# it carries its own .git which would otherwise be picked up as a broken submodule reference
+third_party/
+
+# Reference papers (not our work, redistribution not ours to make - cited by title/arXiv id instead)
+papers_lightweight/
+/*.pdf
+
+# Google-Drive-specific packaging (duplicates demo/ and the report; kept only in Drive, not git)
+SIH_Drive_Upload/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+pi_bundle/venv/
+*.egg-info/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+nul
+
+# Stray local scratch files
+scratch_*.py

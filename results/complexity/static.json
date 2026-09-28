@@ -1,0 +1,44 @@
+[
+ {
+  "model": "Tiny",
+  "ch": 8,
+  "parameters": 8389,
+  "onnx_file": "tiny_deploy.onnx",
+  "onnx_kb": 225.1,
+  "macs_conv_linear_executed": 229192,
+  "macs_gru": 23904,
+  "macs_per_hop_executed": 253096,
+  "mmacs_per_s_executed": 15.8,
+  "crosscheck_total_flopcounter": 253096,
+  "crosscheck_ratio": 1.0,
+  "offline_textbook_macs_per_frame": 253476
+ },
+ {
+  "model": "Small",
+  "ch": 16,
+  "parameters": 24629,
+  "onnx_file": "small_deploy.onnx",
+  "onnx_kb": 287.5,
+  "macs_conv_linear_executed": 436880,
+  "macs_gru": 95616,
+  "macs_per_hop_executed": 532496,
+  "mmacs_per_s_executed": 33.3,
+  "crosscheck_total_flopcounter": 532496,
+  "crosscheck_ratio": 1.0,
+  "offline_textbook_macs_per_frame": 533256
+ },
+ {
+  "model": "Base",
+  "ch": 32,
+  "parameters": 80725,
+  "onnx_file": "base_full.onnx",
+  "onnx_kb": 504.7,
+  "macs_conv_linear_executed": 1119520,
+  "macs_gru": 382464,
+  "macs_per_hop_executed": 1501984,
+  "mmacs_per_s_executed": 93.9,
+  "crosscheck_total_flopcounter": 1501984,
+  "crosscheck_ratio": 1.0,
+  "offline_textbook_macs_per_frame": 1503504
+ }
+]

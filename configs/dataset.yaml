@@ -1,0 +1,28 @@
+fs: 16000
+clip_seconds: 4.0
+
+# speech level at the primary mic (long-term, dB SPL): close talk to raised voice
+speech_spl_db: [75, 95]
+# extra loss (dB) on speech reaching the reference mic, on top of geometry.
+# Replace with the range measured on the real headset (Day 1-2).
+shadow_db: [0, 12]
+ref_gain_jitter_db: 2.0
+mic_shift_samples: 1
+
+snr_db: [-10, 15]                    # continuous range for training data
+snr_bins: [-10, -5, 0, 5, 10, 15]    # fixed grid for the val/test sets
+classes: [engine, helicopter, drone, wind, siren, gunshot, artillery, mixed]
+
+speech_dirs:
+  train: [data/speech/train-clean-100]
+  val: [data/speech/dev-clean]
+  test: [data/speech/test-clean]
+  unseen: [data/speech/test-clean]
+
+noise_dir: data/noise
+use_real_noise_prob: 0.5
+holdout_tokens: ["remington_870"]   # files whose path contains a token go only to the unseen split (12-gauge shotgun)
+
+rir:
+  n_speech: 300
+  n_noise_per_env: 150

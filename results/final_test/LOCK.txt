@@ -1,0 +1,3 @@
+FINAL TEST SETS: data/generated/final_A and final_B (frozen; checksums in checksums.sha256).
+Rules: never tune, select, or set thresholds using these sets. Evaluate finished models once and report everything.
+If any result here influences a design decision, the set is no longer untouched and this must be stated.

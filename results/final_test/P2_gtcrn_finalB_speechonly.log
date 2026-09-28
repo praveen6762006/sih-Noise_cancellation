@@ -1,0 +1,4 @@
+
+processor: gtcrn   data: data\generated\final_B\speechonly   n=50
+class        snr   n  SI-SNR  dSI-SNR   STOI  PESQ   targets(SNR>15,STOI>.85,PESQ>2.5)
+engine        60  50    20.8     -5.4   0.98  3.61   YYY

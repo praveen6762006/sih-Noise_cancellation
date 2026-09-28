@@ -1,0 +1,18 @@
+  100/360
+  200/360
+  300/360
+
+processor: gtcrn   data: data\generated\test_peak   n=360
+class       peak   n  SI-SNR  dSI-SNR   STOI  PESQ   targets(SNR>15,STOI>.85,PESQ>2.5)
+artillery    110  30    16.3     11.4   0.94  2.83   YYY
+artillery    120  30    11.8     16.8   0.87  2.12   -Y-
+artillery    130  30     6.6     15.7   0.79  1.63   ---
+artillery    140  30     1.0     17.5   0.65  1.33   ---
+artillery    150  30    -7.6     15.4   0.52  1.37   ---
+artillery    160  30   -11.3     16.5   0.53  1.31   ---
+gunshot      110  30    11.7      9.0   0.87  2.21   -Y-
+gunshot      120  30     7.3     13.3   0.81  1.77   ---
+gunshot      130  30     3.9     18.3   0.75  1.64   ---
+gunshot      140  30    -7.0     14.3   0.55  1.43   ---
+gunshot      150  30   -17.8     11.0   0.47  1.40   ---
+gunshot      160  30   -26.3      8.0   0.42  1.31   ---

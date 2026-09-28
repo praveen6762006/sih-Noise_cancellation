@@ -1,0 +1,10 @@
+engine_0dB             SI-SNR    0.0 ->   10.1 dB   STOI 0.75 -> 0.88
+helicopter_0dB         SI-SNR   -0.1 ->   10.6 dB   STOI 0.73 -> 0.84
+drone_0dB              SI-SNR   -0.0 ->   10.0 dB   STOI 0.74 -> 0.85
+wind_0dB               SI-SNR   -0.1 ->    7.4 dB   STOI 0.72 -> 0.79
+siren_0dB              SI-SNR    0.0 ->   13.3 dB   STOI 0.84 -> 0.98
+gunshot_0dB            SI-SNR   -0.3 ->   12.3 dB   STOI 0.85 -> 0.93
+artillery_0dB          SI-SNR   -0.2 ->   16.7 dB   STOI 0.87 -> 0.97
+mixed_0dB              SI-SNR    0.5 ->   13.0 dB   STOI 0.78 -> 0.87
+gunshot_peak140dB      SI-SNR  -13.2 ->    8.7 dB   STOI 0.59 -> 0.74
+artillery_peak150dB    SI-SNR  -22.2 ->    2.1 dB   STOI 0.56 -> 0.61

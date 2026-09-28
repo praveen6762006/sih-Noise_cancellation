@@ -1,0 +1,40 @@
+{
+ "speakers_A": {
+  "n": 40,
+  "overlap_train": 0,
+  "overlap_val": 0,
+  "overlap_earlier_test": 40
+ },
+ "speakers_B": {
+  "n": 33,
+  "overlap_train": 0,
+  "overlap_val": 0,
+  "overlap_earlier_test": 0
+ },
+ "utterance_overlap": {
+  "A_vs_earlier": 0,
+  "B_vs_earlier": 0,
+  "A_vs_B": 0
+ },
+ "gunshots_A": {
+  "draws": 172,
+  "files": 34,
+  "shots": 33,
+  "overlap_earlier_files": 0,
+  "overlap_train_shots": 0,
+  "overlap_val_shots": 0,
+  "shotgun": 0,
+  "outside_allowed": 0
+ },
+ "gunshots_B": {
+  "draws": 161,
+  "files": 35,
+  "shots": 34,
+  "overlap_earlier_files": 0,
+  "overlap_train_shots": 0,
+  "overlap_val_shots": 0,
+  "shotgun": 0,
+  "outside_allowed": 0
+ },
+ "rir_duplicates": 0
+}

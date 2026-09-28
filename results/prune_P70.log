@@ -1,0 +1,9 @@
+pruning 70%: keeping 6,802 of 22,672 prunable weights (threshold 0.4487)
+step 250 loss 5.317
+step 500 loss 4.081
+step 750 loss 4.523
+step 1000 loss 4.303
+step 1250 loss 4.398
+step 1500 loss 5.554
+final: 6,802 non-zero prunable weights (70.0% sparse)
+saved P70_C_full_s0

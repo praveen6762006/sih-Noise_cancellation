@@ -1,0 +1,17 @@
+  100/240
+  200/240
+
+processor: onnx   data: data\generated\final_A\weapon   n=240
+class       peak   n  SI-SNR  dSI-SNR   STOI  PESQ   targets(SNR>15,STOI>.85,PESQ>2.5)
+artillery    110  20    18.4     11.4   0.97  3.10   YYY
+artillery    120  20    14.0     16.2   0.93  2.65   -YY
+artillery    130  20     6.5     17.1   0.79  1.61   ---
+artillery    140  20     4.0     17.3   0.72  1.51   ---
+artillery    150  20    -2.2     19.9   0.65  1.25   ---
+artillery    160  20    -4.7     25.1   0.58  1.27   ---
+gunshot      110  20    12.9     11.7   0.91  2.30   -Y-
+gunshot      120  20     6.7     16.1   0.75  1.70   ---
+gunshot      130  20    -0.0     17.9   0.69  1.61   ---
+gunshot      140  20    -5.9     19.0   0.62  1.47   ---
+gunshot      150  20   -12.9     19.3   0.60  1.44   ---
+gunshot      160  20   -16.4     17.8   0.56  1.39   ---

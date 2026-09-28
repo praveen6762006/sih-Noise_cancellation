@@ -1,0 +1,45 @@
+fs: 16000
+clip_seconds: 4.0
+speech_spl_db:
+- 75
+- 95
+shadow_db:
+- 12.0
+- 12.0
+ref_gain_jitter_db: 2.0
+mic_shift_samples: 1
+snr_db:
+- -10
+- 15
+snr_bins:
+- -10
+- -5
+- 0
+- 5
+- 10
+- 15
+classes:
+- engine
+- helicopter
+- drone
+- wind
+- siren
+- gunshot
+- artillery
+- mixed
+speech_dirs:
+  train:
+  - data/speech/train-clean-100
+  val:
+  - data/speech/dev-clean
+  test:
+  - data/speech/test-clean
+  unseen:
+  - data/speech/test-clean
+noise_dir: data/noise
+use_real_noise_prob: 0.5
+holdout_tokens:
+- remington_870
+rir:
+  n_speech: 300
+  n_noise_per_env: 150

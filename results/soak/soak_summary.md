@@ -1,0 +1,38 @@
+# Soak test: models/small_deploy.onnx
+
+| measure | value |
+|---|---|
+| model | models/small_deploy.onnx |
+| requested_minutes | 32.0 |
+| wall_seconds | 1920.0 |
+| total_hops_scheduled | 120000 |
+| processed_hops | 120000 |
+| missed_deadlines | 9 |
+| missed_fraction | 7.5e-05 |
+| max_lateness_ms | 26.449800491333008 |
+| proc_ms_mean | 2.1380271911621094 |
+| proc_ms_p50 | 2.135200023651123 |
+| proc_ms_p95 | 2.7592999935150146 |
+| proc_ms_p99 | 3.1494007110595703 |
+| proc_ms_p999 | 3.536400079727173 |
+| proc_ms_max | 6.0929999351501465 |
+| ram_after_imports_mb | 123.7 |
+| ram_start_mb | 127.26 |
+| ram_end_mb | 123.8 |
+| ram_peak_mb | 153.3 |
+| ram_growth_mb_per_hour_after_60s | -24.706133740330664 |
+| process_cpu_percent | 14.900826512840522 |
+| compute_duty_cycle_percent | 13.362768173217773 |
+| exceptions | 0 |
+| non_finite_output_hops | 0 |
+| silent_gap_hops | 0 |
+| guard_flagged_hops | 1 |
+| guard_flagged_percent | 0.0008333333333333334 |
+| output_peak_abs | 0.47490308929225394 |
+| longform_streaming_vs_offline_agreement_db | 52.47224315584216 |
+| longform_max_abs_diff | 0.004587674182987955 |
+| longform_seconds | 120 |
+| state_drift_agreement_db | 48.927628226289855 |
+| state_drift_control_60s_history_vs_fresh_db | 61.18706335163792 |
+| state_drift_longrun_vs_60s_history_db | 47.88116506680494 |
+| state_drift_note | last 30 s of input, first 10 s skipped; drift is indicated only if the long-run instance differs from the fresh one much more than a 60 s-history control does |

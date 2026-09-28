@@ -1,0 +1,17 @@
+  100/240
+  200/240
+
+processor: ours   data: data\generated\test_peak   n=240
+class       peak   n  SI-SNR  dSI-SNR   STOI  PESQ   targets(SNR>15,STOI>.85,PESQ>2.5)
+artillery    110  20    14.5      8.4   0.95  2.64   -YY
+artillery    120  20    11.0     15.2   0.88  2.07   -Y-
+artillery    130  20     6.3     17.4   0.79  1.56   ---
+artillery    140  20     1.8     17.0   0.67  1.29   ---
+artillery    150  20    -1.8     22.8   0.61  1.26   ---
+artillery    160  20    -1.7     27.8   0.58  1.25   ---
+gunshot      110  20    12.5      8.0   0.90  2.35   -Y-
+gunshot      120  20     7.5     13.6   0.81  1.86   ---
+gunshot      130  20     6.4     19.4   0.77  1.73   ---
+gunshot      140  20    -0.6     20.3   0.67  1.39   ---
+gunshot      150  20    -7.1     18.4   0.60  1.57   ---
+gunshot      160  20   -15.7     20.3   0.52  1.25   ---

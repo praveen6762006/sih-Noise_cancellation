@@ -1,0 +1,4 @@
+
+processor: ours   data: data\generated\test_speechonly   n=50
+class        snr   n  SI-SNR  dSI-SNR   STOI  PESQ   targets(SNR>15,STOI>.85,PESQ>2.5)
+engine        60  50    22.4     -6.7   1.00   nan   YY-

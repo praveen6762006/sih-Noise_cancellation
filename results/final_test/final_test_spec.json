@@ -1,0 +1,135 @@
+{
+ "master_seed": 20260921,
+ "rir_seed": 20260921,
+ "config": {
+  "fs": 16000,
+  "clip_seconds": 4.0,
+  "speech_spl_db": [
+   75,
+   95
+  ],
+  "shadow_db": [
+   0,
+   12
+  ],
+  "ref_gain_jitter_db": 2.0,
+  "mic_shift_samples": 1,
+  "snr_db": [
+   -10,
+   15
+  ],
+  "snr_bins": [
+   -10,
+   -5,
+   0,
+   5,
+   10,
+   15
+  ],
+  "classes": [
+   "engine",
+   "helicopter",
+   "drone",
+   "wind",
+   "siren",
+   "gunshot",
+   "artillery",
+   "mixed"
+  ],
+  "speech_dirs": {
+   "train": [
+    "data/speech/train-clean-100"
+   ],
+   "val": [
+    "data/speech/dev-clean"
+   ],
+   "test": [
+    "data/speech/test-clean"
+   ],
+   "unseen": [
+    "data/speech/test-clean"
+   ]
+  },
+  "noise_dir": "data/noise",
+  "use_real_noise_prob": 0.5,
+  "holdout_tokens": [
+   "remington_870"
+  ],
+  "rir": {
+   "n_speech": 300,
+   "n_noise_per_env": 150
+  }
+ },
+ "config_sha256": "8417a634a3166696ed9ed035b3c507af270be22253b5541ec0df7dceea091fe6",
+ "source_sha256": {
+  "mixer.py": "cf78c71bfa79a8fff417363798309d98401c1801a2c6089063987c7c8771fa58",
+  "noise_bank.py": "72bae5304244d954c26288bcc88e034e90832b6af50597ccc93a31a8d361c629",
+  "noise_synth.py": "0c6ed095a65b282d0036e82f1bddd41e70e219cb9c516f491fda532eb092511d",
+  "scene.py": "462bde683f2161ae18af26dc7c3337936815272cd6dc9949022703795b87fac9",
+  "mic.py": "7076d76229652922be73a6e962fe5ec24ce404e24ca4418dbaf40c03920c6090",
+  "speech.py": "f6ac4462d3c83052e6572ec55064d2ade701224254e60709da3bb251f1dce8b9"
+ },
+ "subsets": {
+  "main": {
+   "per_cell": 25,
+   "peaks": null,
+   "classes": [
+    "engine",
+    "helicopter",
+    "drone",
+    "wind",
+    "siren",
+    "gunshot",
+    "artillery",
+    "mixed"
+   ],
+   "snr_bins": [
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15
+   ]
+  },
+  "weapon": {
+   "per_cell": 20,
+   "peaks": [
+    110,
+    120,
+    130,
+    140,
+    150,
+    160
+   ],
+   "classes": [
+    "gunshot",
+    "artillery"
+   ],
+   "snr_bins": [
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15
+   ]
+  },
+  "speechonly": {
+   "per_cell": 50,
+   "peaks": null,
+   "classes": [
+    "engine"
+   ],
+   "snr_bins": [
+    60.0
+   ]
+  }
+ },
+ "speech_pool_sizes": {
+  "A": 1426,
+  "B": 2939
+ },
+ "gunshot_files_allowed": 35,
+ "earlier_sources_file": "results/final_test/earlier_sources.json"
+}

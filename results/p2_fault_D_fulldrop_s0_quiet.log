@@ -1,0 +1,55 @@
+  100/400
+  200/400
+  300/400
+  400/400
+
+processor: ours   data: data\generated\test   n=400
+class        snr   n  SI-SNR  dSI-SNR   STOI  PESQ   targets(SNR>15,STOI>.85,PESQ>2.5)
+artillery    -10   9    10.4     18.0   0.88   nan   -Y-
+artillery     -5   8    14.3     17.3   0.93   nan   -Y-
+artillery      0   8    16.4     16.0   0.96   nan   YY-
+artillery      5   9    18.2     13.2   0.96   nan   YY-
+artillery     10   8    18.5      8.7   0.99   nan   YY-
+artillery     15   8    20.0      5.7   0.99   nan   YY-
+drone        -10   9     0.1     10.4   0.63   nan   ---
+drone         -5   8     3.8      8.8   0.77   nan   ---
+drone          0   8     7.2      7.2   0.84   nan   ---
+drone          5   9    10.7      5.8   0.89   nan   -Y-
+drone         10   8    14.7      4.9   0.93   nan   -Y-
+drone         15   8    18.1      3.5   0.98   nan   YY-
+engine       -10   9     1.5     11.6   0.68   nan   ---
+engine        -5   8     6.2     11.3   0.84   nan   ---
+engine         0   8    11.9     11.9   0.89   nan   -Y-
+engine         5   9    15.7     10.7   0.94   nan   YY-
+engine        10   8    17.8      8.1   0.96   nan   YY-
+engine        15   8    19.3      5.0   0.97   nan   YY-
+gunshot      -10   9     6.9     15.6   0.81   nan   ---
+gunshot       -5   8    11.5     16.3   0.89   nan   -Y-
+gunshot        0   8    13.0     13.0   0.92   nan   -Y-
+gunshot        5   9    15.7     10.8   0.94   nan   YY-
+gunshot       10   8    17.1      7.2   0.97   nan   YY-
+gunshot       15   8    20.4      5.6   0.98   nan   YY-
+helicopter   -10   9     0.6     10.6   0.61   nan   ---
+helicopter    -5   8     4.0      9.1   0.70   nan   ---
+helicopter     0   8     9.4      9.4   0.84   nan   ---
+helicopter     5   9    12.3      7.3   0.91   nan   -Y-
+helicopter    10   8    14.3      4.8   0.96   nan   -Y-
+helicopter    15   8    18.7      4.0   0.97   nan   YY-
+mixed        -10   9     2.1     11.9   0.64   nan   ---
+mixed         -5   8     5.3     10.1   0.75   nan   ---
+mixed          0   8     8.8      8.9   0.82   nan   ---
+mixed          5   9    12.9      7.9   0.91   nan   -Y-
+mixed         10   8    15.1      5.4   0.93   nan   YY-
+mixed         15   8    18.4      3.8   0.97   nan   YY-
+siren        -10   9     8.5     18.5   0.86   nan   -Y-
+siren         -5   8    11.6     16.6   0.92   nan   -Y-
+siren          0   8    13.6     13.7   0.94   nan   -Y-
+siren          5   9    14.6      9.7   0.97   nan   -Y-
+siren         10   8    16.8      6.9   0.97   nan   YY-
+siren         15   8    18.5      4.3   0.98   nan   YY-
+wind         -10   9    -2.4      7.9   0.50   nan   ---
+wind          -5   8     3.2      8.2   0.65   nan   ---
+wind           0   8     6.7      6.8   0.80   nan   ---
+wind           5   9    11.5      6.5   0.88   nan   -Y-
+wind          10   8    13.2      3.7   0.92   nan   -Y-
+wind          15   8    17.7      3.2   0.94   nan   YY-
